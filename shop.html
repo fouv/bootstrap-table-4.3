@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/50bd29bca9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12">
+                <nav class="navbis" style="background-color: #343a40;">
+                    <i class="fa fa-shopping-cart ml-2" style="color:white"></i>
+                    <span class="navbar-brand mb-0 h1" style="color:white;">The Bike Shop Experience</span>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-10">
+                <nav aria-label="breadcrumb" class="col-12">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Shop</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Basket</li>
+                    </ol>
+
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 align-baseline">
+                <h2>Basket</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="table-responsive-md col-12 ">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Picture</th>
+                            <th scope="col-4 d-none d-sm-block">Model</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            <th scope="col-1 d-none d-sm-block">Total</th>
+                            <th scope="col">Suppr</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td><img src="bike-1.jpg" class="img-fluid"></td>
+                            <td class="col-4 d-none d-sm-block">BIKO45</td>
+                            <td>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control mr-2" id="Quantite" placeholder="1" style="width: 80px;">
+                                        <button type="button" class="btn btn-outline-info"><i class="fas fa-sync-alt"></i></button>
+                                    </div>
+                                </form>
+                            </td>
+
+                            <td>679 €</td>
+                            <td class="col-1 d-none d-sm-block">679 €</td>
+                            <td><button type="button" class="btn btn-outline-info"><i class="far fa-trash-alt"></i></button></td>
+                        </tr>
+                        <tr>
+
+                            <td class="imgstyle"><img src="bike-2.jpg" class="img-fluid"></td>
+                            <td class="col-4 d-none d-sm-block">ZOOK7</td>
+                            <td>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control mr-2" id="Quantite" placeholder="1" style="width: 80px;">
+                                        <button type="button" class="btn btn-outline-info"><i class="fas fa-sync-alt"></i></button>
+                                    </div>
+                                </form>
+                            </td>
+                            <td>679 €</td>
+                            <td class="col-1 d-none d-sm-block">679 €</td>
+                            <td><button type="button" class="btn btn-outline-info"><i class="far fa-trash-alt"></i></button></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+            </row>
+            <div class="row">
+
+                <div class="offset-8 md-auto">
+                    <p>Total Basket: </p>
+                </div>
+                <div class="col-md-2 ml-auto">
+                    <td>1679 €</td>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
